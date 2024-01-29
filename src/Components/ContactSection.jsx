@@ -30,8 +30,8 @@ const ContactSection = () => {
                             <p className='ff-roboto leading-[1.5] font-medium text-[#646363] mb-10'>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli.</p>
                             <form className='max-w-590px flex flex-col gap-[16px] mb-[32px]' >
                                 <div className='flex flex-wrap justify-between gap-6'>
-                                    <input type="text" placeholder='Your Name' className='w-full sm:w-[47%] px-[18px] outline-none py-[19px] ff-roboto text-[#7F7F7F] capitalize leading-[normal]' />
-                                    <input type="email" placeholder='Your Email Address' className='w-full sm:w-[47%] outline-none px-[18px] py-[19px] ff-roboto text-[#7F7F7F] capitalize leading-[normal]' />
+                                    <input type="text" placeholder='Your Name' required className='w-full sm:w-[47%] px-[18px] outline-none py-[19px] ff-roboto text-[#7F7F7F] capitalize leading-[normal]' />
+                                    <input type="email" placeholder='Your Email Address' required className='w-full sm:w-[47%] outline-none px-[18px] py-[19px] ff-roboto text-[#7F7F7F] capitalize leading-[normal]' />
                                 </div>
                                 <textarea placeholder='Message' className='w-full h-[143px] resize-none outline-none py-[19px] px-[18px]'></textarea>
                             </form>
