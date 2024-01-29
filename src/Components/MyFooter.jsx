@@ -15,9 +15,9 @@ const MyFooter = () => {
                             <span className='text-[#919496] text-[16px] font-normal leading-[1.188]'>©</span>
                             <div className='text-white ff-roboto  text-[12px] sm:text-[14px]'>
                                 <span>2023 Lior krengle </span>
-                                <span><a href="#" className='inline-block leading-[1.143]'>. Privacy</a></span>
-                                <span><a href="#" className='inline-block leading-[1.143]'>. Terms </a></span>
-                                <span><a href="#" className='inline-block leading-[1.143]'>. Collection Notice</a></span>
+                                <span><a href="#" className='inline-block leading-[1.143]'>. <span className='underline'>Privacy</span></a></span>
+                                <span><a href="#" className='inline-block leading-[1.143]'>. <span className='underline'>Terms</span> </a></span>
+                                <span><a href="#" className='inline-block leading-[1.143]'>. <span className='underline'>Collection Notice</span></a></span>
                             </div>
                         </div>
                         <div className='flex gap-6 items-center '>
