@@ -81,7 +81,7 @@ const TakeView = () => {
                         </div>
                     </div>
                     <div className='flex justify-center mt-[37.02px]'>
-                        <button className='py-[10px] px-[20px] sm:py-[15px] sm:px-[33px] border-[1px] border-solid border-[#ff5cd7] hover:bg-white hover:text-[#ff5cd7] duration-200 ease-linear transition-all rounded-[264px] bg-[#FF5CD7] text-white ff-roboto sm:text-[18px] font-medium leading-[1.167]'>View All</button>
+                        <button className='py-[10px] px-[20px] sm:py-[15px] sm:px-[33px] border-[1px] border-solid w-[188px] border-[#ff5cd7] hover:bg-white hover:text-[#ff5cd7] duration-200 ease-linear transition-all rounded-[264px] bg-[#FF5CD7] text-white ff-roboto sm:text-[18px] font-medium leading-[1.167]'>View All</button>
                     </div>
                 </div>
             </section>
