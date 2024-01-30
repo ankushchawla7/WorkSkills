@@ -1,14 +1,14 @@
 import React from 'react'
-import WelcomeSectionImg from '../assets/images/png/welcome-section-img.webp'
+import WelcomeSectionImg from '../assets/images/png/welcome-section-img.png'
 
 const Welcome = () => {
     return (
         <>
             <section id='about' className='welcome-section bg-[#EFEFEF] py-6 md:py-[40px] lg:py-12 xl:pt-[164.5px] xl:pb-[147.74px]'>
                 <div className='max-w-[min(1139px,100%-24px)] mx-auto'>
-                    <div className='flex justify-center  xl:justify-end flex-wrap max-xl:gap-6 relative items-center z-[1]'>
+                    <div className='flex justify-center  xl:justify-end flex-wrap  relative items-center z-[1]'>
                         <div className='xl:absolute z-[-1] start-0 max-sm:w-full !md:w-[75%] flex justify-center' data-aos="fade-right">
-                            <img src={WelcomeSectionImg} alt="welcome-section-img" className='max-w-[679px] w-full max-md:w-[75%]' />
+                            <img src={WelcomeSectionImg} alt="welcome-section-img" className='md:max-w-[679px] w-full sm:w-[75%] md:w-full rounded-[5px] stroke-1 stroke-white' />
                         </div>
                         <div className='welcome-section-card p-3 sm:p-6 bg-[#FAF8F8]  rounded-[5px] mt-6 xl:mt-0 w-full xl:w-auto' data-aos="fade-left">
                             <div>
