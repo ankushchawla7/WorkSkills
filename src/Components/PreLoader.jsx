@@ -11,8 +11,8 @@ const PreLoader = () => {
             <section>
                 <div id='preloader' className='bg-[#001520] z-50 fixed top-0 start-0 bottom-0 min-h-screen w-full flex items-center justify-center'>
                     <div className="wrapper flex flex-col items-center ">
-                        <img src={HeaderLogo} alt="header-logo" className='h-[60px]' />
-                        <div className="loading-text text-[24px]">
+                        <img src={HeaderLogo} alt="header-logo" className='h-[80px] xl:h-[150px]' />
+                        <div className="loading-text text-[48px] xl:text-[84px]">
                             <span className="dot-one text-white"> .</span>
                             <span className="dot-two text-white"> .</span>
                             <span className="dot-three text-white"> .</span>

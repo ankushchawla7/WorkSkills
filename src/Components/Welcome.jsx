@@ -10,10 +10,10 @@ const Welcome = () => {
                         <div className='xl:absolute z-[-1] start-0 max-sm:w-full !md:w-[75%] flex justify-center' data-aos="fade-right">
                             <img src={WelcomeSectionImg} alt="welcome-section-img" className='md:max-w-[679px] w-full sm:w-[75%] md:w-full rounded-[5px] stroke-1 stroke-white' />
                         </div>
-                        <div className='welcome-section-card p-3 sm:p-6 bg-[#FAF8F8]  rounded-[5px] mt-6 xl:mt-0 w-full xl:w-auto' data-aos="fade-left">
+                        <div className='welcome-section-card p-4 sm:p-6 bg-[#FAF8F8]  rounded-[5px] mt-6 xl:mt-0 w-full xl:w-auto' data-aos="fade-left">
                             <div>
                                 <h2 className='text-[30px] md:text-[40px] lg:text-[48px] text-black ff-roboto leading-[1.1667] mb-5'><span className='font-semibold'>Welcome </span> to Work Skills</h2>
-                                <ul className='xl:max-w-[509px] mb-[52px] text-[#4B4B4B] ff-roboto flex flex-col gap-4 leading-[1.5] list-disc ps-6'>
+                                <ul className='xl:max-w-[509px] mb-4 xl:mb-[52px] text-[#4B4B4B] ff-roboto flex flex-col gap-4 leading-[1.5] list-disc ps-6'>
                                     <li>Work Skills is built for young professionals who want to enhance their soft skills to overcome the challenges they often face during the early first years of work.
                                     </li>
                                     <li>
