@@ -8,7 +8,7 @@ const Welcome = () => {
                 <div className='max-w-[min(1139px,100%-24px)] mx-auto'>
                     <div className='flex justify-center  xl:justify-end flex-wrap max-xl:gap-6 relative items-center z-[1]'>
                         <div className='xl:absolute z-[-1] start-0 max-sm:w-full !md:w-[75%] flex justify-center' data-aos="fade-right">
-                            <img src={WelcomeSectionImg} alt="welcome-section-img" className='max-w-[679px] w-full md:w-[75%]' />
+                            <img src={WelcomeSectionImg} alt="welcome-section-img" className='max-w-[679px] w-full max-md:w-[75%]' />
                         </div>
                         <div className='welcome-section-card p-3 sm:p-6 bg-[#FAF8F8]  rounded-[5px] mt-6 xl:mt-0 w-full xl:w-auto' data-aos="fade-left">
                             <div>
