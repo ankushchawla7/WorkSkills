@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
-html,body{
+
+html,
+body {
   scroll-behavior: smooth;
 }
+
 .ff-roboto {
   font-family: 'Roboto', sans-serif;
 }
@@ -37,6 +40,7 @@ html,body{
 .accordion-item {
   border: 1px solid #ccc;
   padding-bottom: 16px;
+  border-radius: 10px;
 }
 
 .accordion-title {
@@ -56,6 +60,13 @@ html,body{
   max-height: 300px;
   margin-top: 12px;
 }
+
+input,textarea {
+  border-radius: 5px;
+  border: 1px solid #CDCDCD;
+  background: #FFF;
+}
+
 .nav-link {
   position: relative;
 }
@@ -85,12 +96,15 @@ html,body{
 .nav-link:hover::after {
   width: 14.434px;
 }
+
 .nav-link:hover::before {
   width: 14.434px;
 }
-.view-card:hover .extra-stuff{
+
+.view-card:hover .extra-stuff {
   opacity: 1;
 }
+
 span[class^="dot-"] {
   opacity: 0;
 }
@@ -115,7 +129,7 @@ span[class^="dot-"] {
   transform: translateY(-5px);
 }
 
-@keyframes dot-one{
+@keyframes dot-one {
   0% {
     opacity: 0;
   }

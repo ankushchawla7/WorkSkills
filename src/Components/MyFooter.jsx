@@ -9,7 +9,7 @@ const MyFooter = () => {
                 <div className='max-w-[min(1140px,100%-24px)] mx-auto'>
                     <div className='max-w-[373px] mx-auto'>
                         <div className='flex justify-center'>
-                            <img src={FooterLogo} alt="footer-logo" className='h-[60px] lg:h-[75.533px]' />
+                            <a href="#"><img src={FooterLogo} alt="footer-logo" className='h-[60px] lg:h-[75.533px]' /></a>
                         </div>
                         <div className='flex ff-roboto gap-[3px] leading-[1.143] items-center justify-center my-[33px]'>
                             <span className='text-[#919496] text-[16px] font-normal leading-[1.188]'>©</span>
