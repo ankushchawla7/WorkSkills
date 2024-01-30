@@ -29,7 +29,7 @@ const MyAccordion = () => {
                     <div className="accordion flex flex-col gap-4">
                         {accordionData.map((item, index) => (
                             <div className="accordion-item" key={index}>
-                                    <div className="accordion-title mt-4 w-full px-4 ff-outfit text-[20px] text-[#0D0D0D] leading-[1.1] font-medium" onClick={() => toggleAccordion(index)}>
+                                    <div className="accordion-title w-full px-4 ff-outfit text-[20px] text-[#0D0D0D] leading-[1.1] font-medium" onClick={() => toggleAccordion(index)}>
                                         <div className="flex items-start justify-between">
                                             {item.title}
                                             <div>{openAccordion === index ? <img src={AccordionCloseIcon} alt="icon" className="w-[15px]" /> : <img src={AccordionOpenIcon} alt="icon" className="w-[15px]" />}</div>
