@@ -32,9 +32,11 @@ body {
 .mail-card {
   box-shadow: 0px 1px 40px 0px rgba(0, 0, 0, 0.10);
 }
-.accordion-title{
+
+.accordion-title {
   cursor: pointer;
 }
+
 .accordion-item {
   border: 1px solid #ccc;
   padding-block: 16px;
@@ -61,9 +63,12 @@ body {
 input,
 textarea {
   border-radius: 5px;
-  border: 1px solid #CDCDCD;
   background: #FFF;
+  border: 1px solid;
+  border-image: linear-gradient(to bottom, #00000030, #00000000);
+  border-image-slice: 1;
 }
+
 
 .nav-link {
   position: relative;
